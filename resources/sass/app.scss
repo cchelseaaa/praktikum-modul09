@@ -1,0 +1,77 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #333;
+}
+
+/* Ukuran Logo di Navbar */
+.brand-logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 80vh;
+  background: radial-gradient(circle at 80% 20%, #1e3a8a 0%, #0f172a 60%, #020617 100%);
+}
+
+.hero-img {
+  max-height: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* About Image */
+.about-img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+/* Service Card Hover */
+.service-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
+}
+
+.service-icon {
+  width: 56px;
+  height: 56px;
+}
+
+/* Portfolio Card & Image Cover */
+.portfolio-card {
+  transition: transform 0.25s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Active Navlink */
+.navbar-nav .nav-link.active {
+  color: #0d6efd !important;
+  font-weight: 600;
+}
